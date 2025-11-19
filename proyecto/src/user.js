@@ -2,19 +2,19 @@ import { supabase } from "./supabase.js";
 export async function mostrarUser() {
 const app = document.getElementById("app");
 app.innerHTML = `
-<section>
-<h2>Perfil del Estudiante</h2>
-<form id="user-form">
-<label>Nombre</label>
-<input type="text" id="nombre" required />
-<label>Correo (solo lectura)</label>
+<section id="seccion-usuarios">
+    <h2 id="titulo-usuarios">Perfil del Estudiante</h2>
+    <form id="user-form">
+    <label>Nombre</label>
+    <input type="text" id="nombre" required />
+    <label>Correo (solo lectura)</label>
 
-<input type="email" id="correo" disabled />
-<label>Teléfono</label>
-<input type="text" id="telefono" />
-<button type="submit">Actualizar datos</button>
-</form>
-<p id="mensaje"></p>
+    <input type="email" id="correo" disabled />
+    <label>Teléfono</label>
+    <input type="text" id="telefono" />
+    <button type="submit">Actualizar datos</button>
+    </form>
+    <p id="mensaje"></p>
 </section>
 `;
 const form = document.getElementById("user-form");

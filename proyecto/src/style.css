@@ -1,0 +1,79 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #121212;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+#seccion-usuarios {
+  max-width: 430px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #1a1a1a;
+  border-radius: 18px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* Título */
+#titulo-usuarios {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #fff;
+}
+
+/* Labels */
+#user-form label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #ccc;
+}
+
+/* Inputs */
+#user-form input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.2s;
+}
+
+#user-form input:focus {
+  background: #333;
+  border: 1px solid #1db954; /* color verde Spotify */
+}
+
+/* Botón principal */
+#user-form button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #1db954; /* color personalizado tipo azul */
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#user-form button:hover {
+  background: #1db954;
+}
+
+/* Texto de mensajes */
+#mensaje {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+}
