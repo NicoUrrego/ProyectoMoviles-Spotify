@@ -1,4 +1,4 @@
-/* ======== ESTILOS GENERALES ======== */
+/* estilos body */
 body {
   font-family: 'Inter', sans-serif;
   background: #121212;
@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-/* Contenedor principal */
+/* Contenedor usuarios */
 #seccion-usuarios {
   max-width: 430px;
   margin: 40px auto;
@@ -25,7 +25,7 @@ body {
   color: #fff;
 }
 
-/* Labels */
+/* labels */
 #user-form label {
   display: block;
   margin-top: 12px;
@@ -34,7 +34,7 @@ body {
   color: #ccc;
 }
 
-/* Inputs */
+/* inputs */
 #user-form input {
   width: 100%;
   padding: 12px;
@@ -49,15 +49,15 @@ body {
 
 #user-form input:focus {
   background: #333;
-  border: 1px solid #1db954; /* color verde Spotify */
+  border: 1px solid #1db954; 
 }
 
-/* Botón principal */
+/* botón principal */
 #user-form button {
   width: 100%;
   margin-top: 20px;
   padding: 14px;
-  background: #1db954; /* color personalizado tipo azul */
+  background: #1db954; 
   border: none;
   border-radius: 10px;
   font-size: 1.1rem;
