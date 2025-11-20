@@ -7,8 +7,9 @@ console.log("✅ login.js cargado correctamente");
 export function mostrarLogin() {
 const app = document.getElementById('app');
 app.innerHTML = `
-<section>
-<h2>Iniciar Sesión</h2>
+<section id="formulario">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify">
+<h2>Iniciar Sesión</h2><br />
 <form id="login-form">
 <input type="email" name="correo" placeholder="Correo" required
 />
@@ -17,6 +18,7 @@ required />
 <button type="submit">Ingresar</button>
 </form>
 <p id="error" style="color:red;"></p>
+<p>¿No tienes cuenta?</p>
 <button id="ir-registro">Crear cuenta</button>
 
 </section>

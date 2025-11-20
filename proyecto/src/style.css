@@ -7,6 +7,14 @@ body {
   padding: 0;
 }
 
+/* Estilo de imagenes */
+img {
+
+  align-items: center;
+  width: 120px;
+  margin: auto;
+}
+
 /* Contenedor usuarios */
 #seccion-usuarios {
   max-width: 430px;
@@ -76,4 +84,119 @@ body {
   text-align: center;
   margin-top: 15px;
   font-weight: 600;
+}
+
+
+/* Estilos del login y registro */
+#formulario {
+
+  display: grid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 25px;
+}
+
+#login-form input {
+
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 300px;
+  border-style: ridge;
+  border-width: 2px;
+  border-color: #ccc;
+  border-radius: 6px;
+  font-weight: 600;
+  background: #121212;
+  border-radius: 6px;
+  color: #ccc;
+}
+
+#registro-form input {
+
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 300px;
+  border-style: ridge;
+  border-width: 2px;
+  border-color: #ccc;
+  border-radius: 6px;
+  font-weight: 600;
+  background: #121212;
+  border-radius: 6px;
+  color: #ccc;
+}
+
+#login-form input:hover {
+
+  border-color: #ffffff;
+}
+
+#registro-form input:hover {
+
+  border-color: #ffffff;
+}
+
+#login-form button {
+
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #1db954; 
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#registro-form button {
+
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: #1db954; 
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#login-form button:hover {
+  background: #32d86c;
+}
+
+#registro-form button:hover {
+  background: #32d86c;
+}
+
+#ir-registro {
+
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  background: none; 
+  border: none;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color:#ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#ir-registro:hover {
+  
+  color:#ffffff;
 }
