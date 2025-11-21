@@ -30,8 +30,8 @@ const { data: { user } } = await supabase.auth.getUser();
 if (!user) {
 menu.innerHTML = `
 <div class="menu-spotify">
-  <button class="btn-registro">Registrarse</button>
-  <button class="btn-login">Iniciar sesión</button>
+  <button class="btn-registro" data-action="registro">Registrarse</button>
+  <button class="btn-login" data-action="login">Iniciar sesión</button>
 </div>
 `;
 } else {
