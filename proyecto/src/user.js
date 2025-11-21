@@ -3,7 +3,7 @@ export async function mostrarUser() {
 const app = document.getElementById("app");
 app.innerHTML = `
 <section id="seccion-usuarios">
-    <h2 id="titulo-usuarios">Perfil del Estudiante</h2>
+    <h2 id="titulo-usuarios">Perfil del Usuario</h2>
     <form id="user-form">
     <label>Nombre</label>
     <input type="text" id="nombre" required />
