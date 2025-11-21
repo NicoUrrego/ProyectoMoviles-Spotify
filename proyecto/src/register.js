@@ -3,8 +3,9 @@ import { supabase } from './supabase.js';
 export function mostrarRegistro() {
 const app = document.getElementById('app');
 app.innerHTML = `
-<section>
-<h2>Registro de Estudiante</h2>
+<section id="formulario">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify">
+<h2>Registro de Estudiante</h2><br />
 <form id="registro-form">
 <input type="text" name="nombre" placeholder="Nombre" required
 />
