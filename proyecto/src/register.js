@@ -5,7 +5,7 @@ const app = document.getElementById('app');
 app.innerHTML = `
 <section id="formulario">
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify">
-<h2>Registro de Estudiante</h2><br />
+<h2>Registro de usuario</h2><br />
 <form id="registro-form">
 <input type="text" name="nombre" placeholder="Nombre" required
 />
@@ -50,15 +50,15 @@ if (!uid) {
 errorMsg.textContent = 'No se pudo obtener el ID del usuario.';
 return;
 }
-// 2️⃣Insertar en tabla "estudiantes"
+// 2️⃣Insertar en tabla "usuarios"
 const { error: errorInsert } = await
-supabase.from('estudiantes').insert([
+supabase.from('usuarios').insert([
 { id: uid, nombre, correo, telefono },
 ]);
 
 if (errorInsert) {
 errorMsg.textContent =
-'Error guardando datos del estudiante: ' + errorInsert.message;
+'Error guardando datos del usuario: ' + errorInsert.message;
 return;
 }
 alert('✅ Registro exitoso. Ahora puedes iniciar sesión.');

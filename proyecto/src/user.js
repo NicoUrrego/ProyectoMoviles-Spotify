@@ -27,7 +27,7 @@ export async function mostrarUser() {
     const correo = user.email;
     // 🔹 Cargar datos del estudiante
     const { data, error } = await supabase
-        .from("estudiantes")
+        .from("usuarios")
         .select("*")
         .eq("correo", correo)
         .single();
@@ -45,7 +45,7 @@ export async function mostrarUser() {
         const telefono = document.getElementById("telefono").value.trim();
 
         const { error: updateError } = await supabase
-            .from("estudiantes")
+            .from("usuarios")
             .update({ nombre, telefono })
             .eq("correo", correo);
         if (updateError) {
