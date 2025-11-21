@@ -7,6 +7,52 @@ body {
   padding: 0;
 }
 
+/* Estilos del menú */
+.menu-spotify {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 85%;
+  max-width: 350px;
+  margin: 45px auto;
+  text-align: center;
+}
+
+/* Botón de REGISTRO (verde Spotify) */
+.btn-registro {
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  background: #1db954;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-registro:hover {
+  background: #1ed760;
+}
+
+/* Botón de LOGIN (borde blanco/gris estilo Spotify) */
+.btn-login {
+  padding: 14px;
+  border-radius: 30px;
+  background: transparent;
+  color: white;
+  border: 2px solid #b3b3b3;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-login:hover {
+  border-color: white;
+  color: white;
+}
+
 /* Estilo de imagenes */
 img {
 

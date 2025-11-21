@@ -29,9 +29,9 @@ const { data: { user } } = await supabase.auth.getUser();
 // 🔹 Si NO hay usuario logueado
 if (!user) {
 menu.innerHTML = `
-<div>
-<button data-action="registro">Registrarse</button>
-<button data-action="login">Iniciar sesión</button>
+<div class="menu-spotify">
+  <button class="btn-registro">Registrarse</button>
+  <button class="btn-login">Iniciar sesión</button>
 </div>
 `;
 } else {
