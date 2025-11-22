@@ -236,11 +236,11 @@ export function mostrarMVP() {
         <input type="range" id="fullProgress" value="0" class="progress-range">
 
         <div class="control-buttons">
-            <button><i class="fa-solid fa-backward-step"></i></button>
+            <button><i class="fa-solid fa-backward-step"><<</i></button>
             <button id="fullPlayBtn" class="play-btn">
-                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-play">||</i>
             </button>
-            <button><i class="fa-solid fa-forward-step"></i></button>
+            <button><i class="fa-solid fa-forward-step">>></i></button>
         </div>
 
     </div>
