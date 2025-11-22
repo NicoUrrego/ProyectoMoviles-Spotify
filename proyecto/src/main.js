@@ -39,7 +39,7 @@ menu.innerHTML = `
 
 // Nota: Deberías verificar roles aquí, pero por simplicidad se muestra el menú base.
 menu.innerHTML = `
-<div>
+<div class="menu-inicio">
 <button data-action="actividades">Actividades</button>
 <button data-action="usuarios">Usuarios</button>
 <button data-action="logout">Cerrar sesión</button>

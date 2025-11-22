@@ -53,6 +53,57 @@ body {
   color: white;
 }
 
+/*estilos menu inicio*/
+/* Contenedor del menú */
+.menu-inicio {
+    display: flex;
+    gap: 14px;
+    padding: 15px 20px;
+    background: #121212; /* Negro Spotify */
+    border-radius: 18px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+}
+
+/* Botones estilo Spotify */
+.menu-inicio button {
+    background: #1db954; /* Verde Spotify */
+    border: none;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.23s ease-in-out;
+    letter-spacing: 0.3px;
+}
+
+/* Hover estilo "Spotify Premium" */
+.menu-inicio button:hover {
+    background: #1ed760;  /* Verde más brillante */
+    transform: scale(1.06);
+    box-shadow: 0 0 12px rgba(29, 185, 84, 0.5);
+}
+
+/* Efecto de click */
+.menu-inicio button:active {
+    transform: scale(0.95);
+}
+
+/* Para versión admin (opcional) */
+.menu-inicio .admin {
+    background: #535353; /* gris estilo menú secundario */
+}
+
+.menu-inicio .admin:hover {
+    background: #6b6b6b;
+}
+
+
 /* Estilo de imagenes */
 img {
 
